@@ -102,12 +102,12 @@ h1, h3 {
 	  background-image:linear-gradient(rgb(0,120,80), rgb(0,94,62));
 	}
 
-	.elements
+	.lymber
 	{
 	background-image:linear-gradient(rgb(234,26,64),rgb(244,187,97));
 	}
 
-	.digilab
+	.jrnba
 	{
 	background-image:linear-gradient(rgb(0,174,239), rgb(77,207,255));
 	}
@@ -264,12 +264,12 @@ h1, h3 {
 	/*Project background gradients*/
 	.project_lymber {
 	  background-color: #75c9af;
-	  background-image:linear-gradient(rgb(224,91,73), rgb(194,79,63));
+	  background-image:linear-gradient(rgb(234,26,64),rgb(244,187,97));
 	}
 
 	.project_jrnba {
 	  background-color: #75c9af;
-	  background-image:linear-gradient(rgb(0,107,182),rgb(0,74,127));
+	background-image:linear-gradient(rgb(0,174,239), rgb(77,207,255));
 	}
 
 
