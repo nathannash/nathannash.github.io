@@ -280,7 +280,7 @@ h1, h3 {
 
 /*Project page styles*/
 .article_cover {
-	padding-top: 10px;
+	/*padding-top: 13%;*/
 	text-align: center;
 	color:#fff;
 	text-shadow:1px 1px 1px #000;
