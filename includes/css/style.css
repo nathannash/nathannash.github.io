@@ -131,6 +131,7 @@ h1, h3 {
 		position: relative;
 		z-index: -1;
 		cursor: s-resize;
+		background:#000000;
 	}
 
 	/*Tagline*/
@@ -216,7 +217,7 @@ h1, h3 {
 
 	.project_jrnba {
 	  background-color: #75c9af;
-	background-image:linear-gradient(rgb(0,174,239), rgb(77,207,255));
+	  background-image:linear-gradient(rgb(0,174,239), rgb(77,207,255));
 	}
 
 
@@ -287,10 +288,8 @@ h1, h3 {
 
 /*About*/
 .about {
-	margin-top:10px;
-	margin-left: 0;
-	margin-right: auto;
-	width: 100%;
+	margin:10px auto 10px auto;
+	width: 75%;
 	text-align: center;
 }
 
