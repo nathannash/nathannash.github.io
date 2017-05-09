@@ -5,15 +5,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Nathan Nash | {{page.title}}</title>
+		<title>{{page.title}}</title>
 		<!-- Bootstrap -->
 		<link href="{{site.baseurl}}/includes/css/bootstrap.css" rel="stylesheet">
 		<link href="{{site.baseurl}}/includes/css/style.css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	</head>
 	<body>
 	<nav class="navbar navbar-default navbar-static-top">
-		<div class="container">
+	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span>
@@ -31,33 +30,15 @@
 				<li><a href="https://goo.gl/forms/MdZkzqP8dAyR42FW2" target="_blank">Contact</a></li>
 				<li><a href="https://goo.gl/forms/Z5sezVVnd0vPitGE2" target="_blank">Hire</a></li>
 			</ul>
-		</div>	
-	</nav>
-	<section class="project_header {{page.background}}">
-		<div class="article_cover">
-			<h1 class="project_title">{{page.title}}</h1>
-			<h2 class="project_description">{{page.subtitle}}</h2>
 		</div>
-	</section>	
-    {{content}}
+	</div>	
+	</nav>
+	{{content}}
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="//use.typekit.net/qel7kzz.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>	
+	<script>try{Typekit.load();}catch(e){}</script>		
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="/includes/js/bootstrap.min.js"></script>
-	<script src="/includes/js/responsiveslides.min.js"></script>
-	<script>
-	  $(function() {
-	    $(".rslides").responsiveSlides({
-	    	auto:false,
-	    	pager:true,
-	    	nav:true,
-	    	prevText: "Prev/",
-	    	speed: 500,
-	    	timeout: 3000
-	    });
-	  });
-	</script>	
+	<script src="{{site.baseurl}}/includes/js/bootstrap.min.js"></script>
 	</body>
-</html>  
+</html>
