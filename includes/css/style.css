@@ -104,12 +104,16 @@ h1, h3 {
 
 	.lymber
 	{
-	background-image:linear-gradient(rgb(234,26,64),rgb(244,187,97));
+		background-image:linear-gradient(rgb(234,26,64),rgb(244,187,97));
 	}
 
 	.jrnba
 	{
-	background-image:linear-gradient(rgb(0,174,239), rgb(77,207,255));
+		background-image:linear-gradient(rgb(0,174,239), rgb(77,207,255));
+	}
+
+	.contact-form {
+		background-image:linear-gradient(rgb(31,47,71),rgb(26,90,154));
 	}
 
 .project_title {
@@ -209,6 +213,12 @@ h1, h3 {
 			text-decoration: none;
 		}
 
+		.project_contactForm a:hover {
+			background: #fff;
+			color: rgb(26,90,154);
+			text-decoration: none;
+		}
+
 	/*Project background gradients*/
 	.project_lymber {
 	  background-color: #75c9af;
@@ -225,6 +235,11 @@ h1, h3 {
 	  background-color: #75c9af;
 	  background-image:linear-gradient(rgb(0,120,80), rgb(0,94,62));
 	}
+
+	.project_contactForm {
+	  background-color: rgb(31,47,71);
+		background-image:linear-gradient(rgb(31,47,71),rgb(26,90,154));
+	}	
 
 /*Project page styles*/
 .article_cover {
